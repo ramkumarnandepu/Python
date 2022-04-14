@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ytapp.pythonlife">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pllogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/roundpl"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PythonLife">
+        <activity android:name=".SplashActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <meta-data android:name="com.startapp.sdk.APPLICATION_ID" android:value="201898612" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7641929534307004~6558633943" />
+
+        <activity android:name=".WsActivity" />
+        <activity android:name=".PythonActivity" />
+        <activity android:name=".HomeActivity">
+
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

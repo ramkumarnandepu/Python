@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/yt"
+        android:title="Youtube"
+        android:icon="@drawable/yt"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/insta"
+        android:title="Instagram"
+        android:icon="@drawable/insta"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/telegram"
+        android:title="Telegram"
+        android:icon="@drawable/tl"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/fb"
+        android:title="Facebook"
+        android:icon="@drawable/fb"
+        />
+
+    <item
+        android:id="@+id/ln"
+        android:title="Linkedin"
+        android:icon="@drawable/ln"
+        />
+
+    <item
+        android:id="@+id/gh"
+        android:title="Github"
+        android:icon="@drawable/gh"
+        />
+
+</menu>

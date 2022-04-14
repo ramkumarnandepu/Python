@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Python Life</string>
+    <string name="drawer_open">Python Life</string>
+    <string name="drawer_close">Python Life</string>
+</resources>
