@@ -33,4 +33,6 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+data add
 #extra data added
